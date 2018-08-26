@@ -1,0 +1,54 @@
+.game {
+  /* text-align: center; */
+  font-family: Calibri;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav {
+  padding: 15px;
+  font-size: 1.2em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+.nav-what {
+  float: left;
+}
+
+.nav-new {
+  float: right;
+}
+
+/* .game-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+} */
+
+.game-title {
+  font-weight: 900;
+  font-size: 3em;
+  padding-bottom: 20px;
+}
+
+/* .game-intro {
+  font-size: large;
+} */
+
+/* @keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}  */
