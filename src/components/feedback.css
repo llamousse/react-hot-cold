@@ -56,10 +56,3 @@ input {
   color: black;
   font-size: 30px;
 }
-
-.guess-history {
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  background-color: #11a8ab;
-  height: 80px;
-}

@@ -1,7 +1,7 @@
 import React from 'react';
 import './nav.css';
 
-export default function Nav() {
+export default function Nav(props) {
   return (
     <div>
       <nav>
@@ -15,7 +15,7 @@ export default function Nav() {
           <li>
             <a  href="#new" className="nav-new"
               aria-label="Start New Game"
-              // onClick={() => props.onRestartGame()}
+              onClick={() => props.onRestartGame()}
               >
               + NEW GAME
             </a>
